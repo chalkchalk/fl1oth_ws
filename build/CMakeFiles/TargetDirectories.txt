@@ -294,14 +294,6 @@
 /home/ycz/f1tenth_ws/build/f1tenth_planning/global_planner/a_star_planner/CMakeFiles/install/strip.dir
 /home/ycz/f1tenth_ws/build/f1tenth_planning/global_planner/a_star_planner/CMakeFiles/install/local.dir
 /home/ycz/f1tenth_ws/build/f1tenth_planning/global_planner/a_star_planner/CMakeFiles/test.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/list_install_components.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/install.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/rebuild_cache.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/edit_cache.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/rrt_node.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/test.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/install/strip.dir
-/home/ycz/f1tenth_ws/build/f110_rrt_star-master/CMakeFiles/install/local.dir
 /home/ycz/f1tenth_ws/build/f1tenth_base/CMakeFiles/list_install_components.dir
 /home/ycz/f1tenth_ws/build/f1tenth_base/CMakeFiles/install.dir
 /home/ycz/f1tenth_ws/build/f1tenth_base/CMakeFiles/rebuild_cache.dir

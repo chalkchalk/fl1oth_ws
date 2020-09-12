@@ -2558,19 +2558,6 @@ a_star_planner/fast:
 .PHONY : a_star_planner/fast
 
 #=============================================================================
-# Target rules for targets named rrt_node
-
-# Build rule for target.
-rrt_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rrt_node
-.PHONY : rrt_node
-
-# fast build rule for target.
-rrt_node/fast:
-	$(MAKE) -f f110_rrt_star-master/CMakeFiles/rrt_node.dir/build.make f110_rrt_star-master/CMakeFiles/rrt_node.dir/build
-.PHONY : rrt_node/fast
-
-#=============================================================================
 # Target rules for targets named f1tenth_base_node
 
 # Build rule for target.
@@ -3053,7 +3040,6 @@ help:
 	@echo "... global_planner_node"
 	@echo "... global_planner_test"
 	@echo "... a_star_planner"
-	@echo "... rrt_node"
 	@echo "... f1tenth_base_node"
 	@echo "... f1tenth_executor_node"
 	@echo "... checkpoints_publisher"

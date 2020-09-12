@@ -14,7 +14,7 @@ void CheckpointsPublisher::ChassisOdomCallback(const nav_msgs::Odometry::ConstPt
 {
   double distance2next_ckp = f1tenth_common::PointDistance(odom_info->pose.pose.position.x,odom_info->pose.pose.position.y,
                                                            ckp[checkpoint_index_][0],ckp[checkpoint_index_][1]);
-  ROS_INFO("distance = %f, checkpoint_index_ = %d",distance2next_ckp, checkpoint_index_);
+  //ROS_INFO("distance = %f, checkpoint_index_ = %d",distance2next_ckp, checkpoint_index_);
   if(distance2next_ckp < checkpoint_arrive_distance_)
   {
     checkpoint_index_ ++;
