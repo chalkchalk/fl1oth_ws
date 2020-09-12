@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/devel
+
+Name: f1tenrh_costmap
+Description: Description of f1tenrh_costmap
+Version: 1.0.0
+Cflags: -I/home/ycz/f1tenth_ws/src/f1tenth_costmap/include
+Libs: -L/home/ycz/f1tenth_ws/devel/lib 
+Requires: 

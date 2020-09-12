@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/devel
+
+Name: f110_rrt_star
+Description: Description of f110_rrt_star
+Version: 0.0.0
+Cflags: -I/home/ycz/f1tenth_ws/src/f110_rrt_star-master/include
+Libs: -L/home/ycz/f1tenth_ws/devel/lib -lf110_rrt
+Requires: ackermann_msgs geometry_msgs roscpp rospy sensor_msgs std_msgs tf

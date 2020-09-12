@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/install
+
+Name: f1tenrh_planning
+Description: Description of f1tenrh_planning
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ycz/f1tenth_ws/install/lib 
+Requires: 

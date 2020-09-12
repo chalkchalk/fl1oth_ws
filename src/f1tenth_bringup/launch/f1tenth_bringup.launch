@@ -1,0 +1,25 @@
+<launch>
+
+    <!--Load parameters for localization node  -->
+    <rosparam command="load" file="$(find f1tenth_localization)/config/localization.yaml" />
+    <rosparam command="load" file="$(find f1tenth_localization)/amcl/config/amcl.yaml" />
+
+    <include file="$(find f1tenth_simulator)/launch/simulator.launch"/>
+
+    <node pkg="f1tenth_base" type="f1tenth_base_node" name="f1tenth_base_node" respawn="false"  />
+
+    <node pkg="f1tenth_executor" type="f1tenth_executor_node" name="f1tenth_executor_node" respawn="true"  output="screen"/>
+    <node pkg="f1tenth_executor" type="checkpoints_publisher" name="checkpoints_publisher" respawn="true"  output="screen"/>
+
+    <!-- Run the global planner Node -->
+    <node pkg="f1tenth_planning" type="global_planner_node" name="global_planner_node" respawn="true"  />
+
+    <!-- Run the local planner node -->
+    <node pkg="f1tenth_planning" type="local_planner_node" name="local_planner_node" respawn="false" />
+
+     <!-- Run the velocity converter node -->
+    <node pkg="f1tenth_planning" type="vel_converter" name="vel_converter_node" respawn="false" />
+
+
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/devel
+
+Name: f1tenrh_base
+Description: Description of f1tenrh_base
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ycz/f1tenth_ws/devel/lib 
+Requires: 

@@ -1,0 +1,64 @@
+;; Auto-generated. Do not edit!
+
+
+(when (boundp 'f1tenth_msgs::RobotBonus)
+  (if (not (find-package "F1TENTH_MSGS"))
+    (make-package "F1TENTH_MSGS"))
+  (shadow 'RobotBonus (find-package "F1TENTH_MSGS")))
+(unless (find-package "F1TENTH_MSGS::ROBOTBONUS")
+  (make-package "F1TENTH_MSGS::ROBOTBONUS"))
+
+(in-package "ROS")
+;;//! \htmlinclude RobotBonus.msg.html
+
+
+(defclass f1tenth_msgs::RobotBonus
+  :super ros::object
+  :slots (_bonus ))
+
+(defmethod f1tenth_msgs::RobotBonus
+  (:init
+   (&key
+    ((:bonus __bonus) nil)
+    )
+   (send-super :init)
+   (setq _bonus __bonus)
+   self)
+  (:bonus
+   (&optional __bonus)
+   (if __bonus (setq _bonus __bonus)) _bonus)
+  (:serialization-length
+   ()
+   (+
+    ;; bool _bonus
+    1
+    ))
+  (:serialize
+   (&optional strm)
+   (let ((s (if strm strm
+              (make-string-output-stream (send self :serialization-length)))))
+     ;; bool _bonus
+       (if _bonus (write-byte -1 s) (write-byte 0 s))
+     ;;
+     (if (null strm) (get-output-stream-string s))))
+  (:deserialize
+   (buf &optional (ptr- 0))
+   ;; bool _bonus
+     (setq _bonus (not (= 0 (sys::peek buf ptr- :char)))) (incf ptr- 1)
+   ;;
+   self)
+  )
+
+(setf (get f1tenth_msgs::RobotBonus :md5sum-) "22365d98c104f9d16cae777ed759cbfe")
+(setf (get f1tenth_msgs::RobotBonus :datatype-) "f1tenth_msgs/RobotBonus")
+(setf (get f1tenth_msgs::RobotBonus :definition-)
+      "#robot bonus
+bool bonus
+
+")
+
+
+
+(provide :f1tenth_msgs/RobotBonus "22365d98c104f9d16cae777ed759cbfe")
+
+

@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/devel
+
+Name: f1tenth_planning
+Description: Description of f1tenth_planning
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ycz/f1tenth_ws/devel/lib 
+Requires: 

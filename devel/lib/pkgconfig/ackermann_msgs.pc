@@ -1,0 +1,8 @@
+prefix=/home/ycz/f1tenth_ws/devel
+
+Name: ackermann_msgs
+Description: Description of ackermann_msgs
+Version: 1.0.2
+Cflags: -I/home/ycz/f1tenth_ws/devel/include -I/usr/include
+Libs: -L/home/ycz/f1tenth_ws/devel/lib 
+Requires: message_runtime std_msgs
