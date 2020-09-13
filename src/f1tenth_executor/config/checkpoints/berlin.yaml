@@ -5,3 +5,4 @@ y2: -24.1
 x3: -2.75
 y3: -8.73
 arrive_distance: 5
+timer_arrive_distance: 2

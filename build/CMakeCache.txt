@@ -103,7 +103,7 @@ CATKIN_SKIP_TESTING:BOOL=OFF
 CATKIN_SYMLINK_INSTALL:BOOL=OFF
 
 //List of ';' separated packages to build
-CATKIN_WHITELIST_PACKAGES:STRING=
+CATKIN_WHITELIST_PACKAGES:STRING=f1tenth_timer
 
 //Path to a file.
 CHOLMOD_INCLUDE_DIR:PATH=/usr/include/suitesparse
@@ -844,6 +844,12 @@ f1tenth_simulator_LIB_DEPENDS:STATIC=
 //Value Computed by CMake
 f1tenth_simulator_SOURCE_DIR:STATIC=/home/ycz/f1tenth_ws/src/f1tenth_simulator
 
+//Value Computed by CMake
+f1tenth_timer_BINARY_DIR:STATIC=/home/ycz/f1tenth_ws/build/f1tenth_timer
+
+//Value Computed by CMake
+f1tenth_timer_SOURCE_DIR:STATIC=/home/ycz/f1tenth_ws/src/f1tenth_timer
+
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
 
@@ -930,7 +936,7 @@ io_SOURCE_DIR:STATIC=/home/ycz/f1tenth_ws/src/f1tenth_common/include/io
 laser_geometry_DIR:PATH=/opt/ros/kinetic/share/laser_geometry/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/libtf.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 
 //Value Computed by CMake
 local_planner_BINARY_DIR:STATIC=/home/ycz/f1tenth_ws/build/f1tenth_planning/local_planner
@@ -1266,7 +1272,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=21
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

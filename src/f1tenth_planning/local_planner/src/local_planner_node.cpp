@@ -137,6 +137,7 @@ void LocalPlannerNode::ExcuteCB(const f1tenth_msgs::LocalPlannerGoal::ConstPtr &
         result.error_code = error_info.error_code();
         as_.setAborted(result,error_info.error_msg());
         StopPlanning();
+        ros::shutdown();//@
         break;
       }
     }

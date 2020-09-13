@@ -9,7 +9,7 @@ para_costmap_interface {
   transform_tolerance: 1.0
   distance_threshold: 1.0
   map_width: 9
-  map_height: 9
+  map_height: 8
   map_resolution: 0.04 #0.04
   map_origin_x: 0.0
   map_origin_y: 0.0
@@ -21,20 +21,20 @@ para_costmap_interface {
   map_update_frequency: 50
 }
 footprint {
-  point {
-    x: -0.3
-    y: -0.225
-  }
-  point {
-    x: -0.3
-    y: 0.225
-  }
-  point {
-    x: 0.3
-    y: 0.225
-  }
-  point {
-    x: 0.3
-    y: -0.225
-  }
+    point {
+      x: -0.15
+      y: -0.1
+    }
+    point {
+      x: -0.15
+      y: 0.1
+    }
+    point {
+      x: 0.15
+      y: 0.1
+    }
+    point {
+      x: 0.15
+      y: -0.1
+    }
 }

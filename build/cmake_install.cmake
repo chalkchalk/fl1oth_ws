@@ -126,17 +126,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ycz/f1tenth_ws/build/gtest/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/ackermann_msgs/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_bringup/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_gym_ros-master/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_msgs/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_common/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_costmap/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_planning/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_base/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_executor/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_localization/cmake_install.cmake")
-  include("/home/ycz/f1tenth_ws/build/f1tenth_simulator/cmake_install.cmake")
+  include("/home/ycz/f1tenth_ws/build/f1tenth_timer/cmake_install.cmake")
 
 endif()
 

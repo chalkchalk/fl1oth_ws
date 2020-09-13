@@ -1,2 +1,2 @@
-ackermann_msgs:f1tenth_base:f1tenth_bringup:f1tenth_common:f1tenth_costmap:f1tenth_executor:f1tenth_gym_ros-master:f1tenth_localization:f1tenth_msgs:f1tenth_planning:f1tenth_simulator
+ackermann_msgs:f1tenth_base:f1tenth_bringup:f1tenth_common:f1tenth_costmap:f1tenth_executor:f1tenth_gym_ros-master:f1tenth_localization:f1tenth_msgs:f1tenth_planning:f1tenth_simulator:f1tenth_timer
 -G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/ycz/f1tenth_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ycz/f1tenth_ws/install
